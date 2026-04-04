@@ -6,7 +6,7 @@ GigShield -> Abhaya Raksha
 
 ---
 
-##  Project Vision
+## 🚀 Project Vision
 
 India's gig delivery workforce is the backbone of the urban economy, yet it remains the most financially exposed segment in the country. A single day of heavy rain in Mumbai can wipe out ₹900 in earnings — with no safety net, no sick pay, and no recourse.
 
@@ -14,22 +14,22 @@ India's gig delivery workforce is the backbone of the urban economy, yet it rema
 
 ---
 
-##  Phase 2 Key Features
+## ✨ Phase 2 Key Features
 
-### Live Parametric Oracle
+### ⚡ Live Parametric Oracle
 A background scheduler (the "Parametric Heart") polls the **OpenWeather API** every 15 minutes for Mumbai, Delhi, Bangalore, Chennai, and Hyderabad. The moment a city-specific threshold is breached — rain, AQI, heat, or curfew — claims are created and approved automatically. No worker action required. Ever.
 
-###  Micro-Insurance Pricing — Built for Financial Inclusion
+### 💰 Micro-Insurance Pricing — Built for Financial Inclusion
 Premiums are calculated using an actuarially-grounded formula designed to keep coverage accessible:
 
 $$\text{Premium} = P_{\text{trigger}} \times \text{Daily Income} \times \text{Exposure Days}$$
 
 At a trigger probability of **0.8%** and 5 exposure days per week, a worker earning ₹850/day pays just **₹34/week** — less than a cup of chai. The premium scales with actual income and city-specific risk, not arbitrary tiers.
 
-###  7-Day Anti-Fraud Underwriting Window
+### 🔒 7-Day Anti-Fraud Underwriting Window
 Every new policy includes a mandatory 7-day underwriting period before coverage activates. This prevents adverse selection — a worker cannot sign up during a live monsoon event and immediately collect a payout. The claim engine enforces this at the database query level, not just the UI.
 
-###  Admin Actuarial Command Center
+### 📊 Admin Actuarial Command Center
 The admin dashboard provides real-time actuarial monitoring with:
 - **BCR (Burning Cost Rate):** $\text{BCR} = \frac{\text{Total Claims Paid}}{\text{Total Premiums Collected}}$
 - **Loss Ratio** with automated 🚨 enrollment suspension when BCR > 85%
@@ -37,15 +37,15 @@ The admin dashboard provides real-time actuarial monitoring with:
 - **Fraud Alert Panel** with Isolation Forest ML anomaly detection
 - **Risk Heatmap** across 5 cities with live data points
 
-###  AI-Driven Risk Insights (Gemini 1.5 Flash)
+### 🤖 AI-Driven Risk Insights (Gemini 1.5 Flash)
 Complex weather data is translated into plain-language, worker-friendly advice using Google's Gemini 1.5 Flash. A delivery worker in Andheri West doesn't need to understand AQI indices — they need to know: *"Today's air quality is poor. Your policy covers disruptions above AQI 200. Stay safe."*
 
-###  Abhaya Smart-Shift Planner
+### 🗺️ Abhaya Smart-Shift Planner
 A rule-based shift optimizer that scans tomorrow's 5-day forecast and identifies the first 6-hour window where rain < 1mm and temperature < 35°C — giving workers a concrete, actionable recommendation for when to maximize their earnings.
 
 ---
 
-##  The Actuarial Math
+## 📐 The Actuarial Math
 
 ### Premium Calculation
 
@@ -88,7 +88,7 @@ City-specific rain thresholds prevent Mumbai's routine monsoon showers from trig
 
 ---
 
-##  Tech Stack
+## 🛠️ Tech Stack
 
 | Layer | Technology | Purpose |
 |---|---|---|
@@ -103,16 +103,16 @@ City-specific rain thresholds prevent Mumbai's routine monsoon showers from trig
 
 ---
 
-##  Media
+## 📺 Media
 
 | | |
 |---|---|
-|  **Phase 2 Demo Video** | [Watch the "Zero-Touch" Payout in Action](#) |
-|  **Installation Guide** | [From Clone to Localhost in 3 Minutes](#) |
+| 🎬 **Phase 2 Demo Video** | [Watch the "Zero-Touch" Payout in Action](#) |
+| 📖 **Installation Guide** | [From Clone to Localhost in 3 Minutes](#) |
 
 ---
 
-##  Setup — 4 Steps
+## 📋 Setup — 4 Steps
 
 ### Prerequisites
 - Python 3.12
@@ -131,6 +131,7 @@ cd abhaya_raksha
 ```bash
 cd backend
 copy .env.example .env
+python -m venv venv  # once for new user
 ```
 
 Edit `backend/.env` and add your API keys (both are optional — the platform runs fully on safe mocks without them):
@@ -164,6 +165,7 @@ python seed.py
 
 # Terminal 3 — Frontend
 cd frontend
+npm install # once for new user
 npm run dev
 ```
 
@@ -171,7 +173,7 @@ Open **http://localhost:5173** in your browser.
 
 ---
 
-##  Demo Credentials
+## 🔑 Demo Credentials
 
 After running `python seed.py`:
 
@@ -189,7 +191,7 @@ After running `python seed.py`:
 
 ---
 
-##  Demo Script (2 Minutes)
+## 🎬 Demo Script (2 Minutes)
 
 1. **Register** as a new food delivery worker in Mumbai — watch the ML risk engine calculate a personalised ₹34–₹41/week premium in real time
 2. **Activate Policy** — confirm the Force Majeure exclusions, pay, and watch the 7-day underwriting countdown begin
@@ -199,7 +201,7 @@ After running `python seed.py`:
 
 ---
 
-##  API Reference
+## 🔌 API Reference
 
 Interactive docs at `http://localhost:8000/docs`
 
@@ -218,7 +220,7 @@ Interactive docs at `http://localhost:8000/docs`
 
 ---
 
-##  Roadmap
+## 🌱 Roadmap
 
 - **Mobile App** (React Native) with push notifications for real-time claim alerts
 - **UPI AutoPay** for frictionless weekly premium collection
