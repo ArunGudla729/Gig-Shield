@@ -323,6 +323,8 @@ Female workers automatically receive an 8% premium discount and 12% higher cover
 
 ---
 
+PITCH DECK :- https://drive.google.com/file/d/1RMq10LOxyK66AhP49lgX9C8LYYEtb09h/view?usp=sharing
+
 ## ⚠️ Disclaimer
 
 This is a hackathon prototype. All payments are simulated via Razorpay test mode — no real money moves. GPS data is collected with explicit user consent and used solely for fraud prevention. The platform is not a licensed insurance product.
