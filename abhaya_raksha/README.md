@@ -323,8 +323,8 @@ Female workers automatically receive an 8% premium discount and 12% higher cover
 
 ---
 
-PITCH DECK :- https://drive.google.com/file/d/1RMq10LOxyK66AhP49lgX9C8LYYEtb09h/view?usp=sharing
-DEMO VIDEO :- https://youtu.be/IAsSsD1xkos
+-PITCH DECK :- https://drive.google.com/file/d/1RMq10LOxyK66AhP49lgX9C8LYYEtb09h/view?usp=sharing
+-DEMO VIDEO :- https://youtu.be/IAsSsD1xkos
 
 ## ⚠️ Disclaimer
 
